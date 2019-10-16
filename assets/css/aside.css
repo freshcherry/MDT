@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body main aside.menu {
+    width: 15%;
+    height: 100vh;
+    background-color: #0e1a35;
+}
+
+body main aside.menu .menu-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+body main aside.menu .menu-header img {
+    width: 80%;
+    height: 90%;
+}
+
+body main aside.menu .menu-block {
+    width: 100%;
+}
+
+body main aside.menu .menu-block .menu-list {
+    list-style-type: none;
+}
+
+body main aside.menu .menu-block .menu-list .menu-item {
+    border-top: 1px solid #0d172e;
+    border-bottom: 1px solid #0d172e;
+}
+
+body main aside.menu .menu-block .menu-list .menu-item .menu-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 35px;
+}
+
+body main aside.menu .menu-block .menu-list .menu-item .menu-link img {
+    margin-right: 15px;
+}
+
+body main aside.menu .menu-block .menu-list .menu-item .menu-link:hover {
+    color: #8492af;
+}
+
+body main aside.menu .menu-block .menu-list .active {
+    background-color: #122143;
+    border-left: 3px solid #5584ff;
+}

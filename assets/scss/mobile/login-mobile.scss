@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    .auth-block {
+      width: 90%;
+      left: 5%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    .auth-block {
+      .auth-header {
+        .header-logo {
+          width: 40%;
+        }
+
+        .header-button {
+          width: 50%;
+        }
+      }
+
+      .auth-body {
+        .body-header {
+          h2 {
+            font-size: 20px;
+          }
+
+          span {
+            font-size: 20px;
+          }
+        }
+        .body-input {
+          width: 90%;
+          margin-top: 25px;
+          .inp {
+            width: 90%;
+            font-size: 14px;
+          }
+        }
+        .body-button {
+          width: 90%;
+          a {
+            padding: 10px 80px;
+          }
+        }
+      }
+    }
+  }
+}

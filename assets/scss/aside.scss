@@ -30,6 +30,10 @@ body {
       width: 10%;
       height: 35px;
 
+      img {
+        cursor: pointer;
+      }
+
       img:last-child {
         padding: 15px;
       }
@@ -70,9 +74,11 @@ body {
   }
 
   main {
+    display: flex;
+    height: 1011px;
+
     aside.menu {
       width: 15%;
-      height: 100vh;
       background-color: #0e1a35;
 
       .menu-header {

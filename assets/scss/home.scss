@@ -34,6 +34,7 @@ body {
       .stats-container {
         @include defaultDisplay;
         justify-content: space-between;
+        flex-wrap: wrap;
         width: 95%;
         margin: 0 auto;
 

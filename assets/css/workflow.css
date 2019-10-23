@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .main-container {
+  width: 85%;
+  height: 935px;
+  position: absolute;
+  top: 76px;
+  right: 0;
+  background-color: #f6f7fa;
+}
+body .main-container .header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95%;
+  margin: 25px auto;
+}
+body .main-container .header-container .header-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+}
+body .main-container .header-container .header-item h1 {
+  color: #0e1a35;
+}
+body .main-container .header-container .header-item span {
+  color: #a0abc2;
+}
+body .main-container .body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 95%;
+  margin: 25px auto;
+}
+body .main-container .body-container .body-wrapper {
+  width: 30%;
+}
+body .main-container .body-container .body-wrapper .wrapper-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid silver;
+  margin: 15px 0;
+  padding: 15px 20px;
+  background-color: #fff;
+}
+body .main-container .body-container .body-wrapper .wrapper-item p span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #8492AF;
+}
+body .main-container .body-container .body-wrapper .wrapper-item p span img {
+  margin: 10px 10px 0 0;
+}
+body .main-container .body-container .body-wrapper .wrapper-item p .completed {
+  color: #44d058;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=workflow-mobile.css.map */

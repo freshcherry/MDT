@@ -1,0 +1,185 @@
+@mixin defaultDisplay {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  main {
+    .main-container {
+      width: 85%;
+      position: absolute;
+      top: 76px;
+      right: 0;
+      height: 935px;
+      background-color: #f6f7fa;
+
+      .container-header {
+        @include defaultDisplay;
+        justify-content: space-between;
+        width: 95%;
+        height: 40px;
+        margin: 25px auto 15px;
+
+        select {
+          border-radius: 20px;
+          padding: 5px 15px;
+          outline: none;
+
+          &:first-child {
+            margin-right: 40px;
+          }
+        }
+      }
+
+      .graph {
+        @include defaultDisplay;
+        justify-content: space-between;
+        width: 95%;
+        margin: 25px auto;
+
+        .right-graph {
+          @include defaultDisplay;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 40%;
+          height: 390px;
+          background-color: #fff;
+          border: 1px solid silver;
+
+          p {
+            display: inline-block;
+            color: #8492af;
+            font-size: 24px;
+
+            span {
+              font-size: 36px;
+              font-weight: bold;
+            }
+          }
+
+          .graph-top {
+            @include defaultDisplay;
+            justify-content: space-between;
+            width: 100%;
+            height: 45%;
+            margin: 50px auto;
+
+            div {
+              @include defaultDisplay;
+              width: 50%;
+
+              img {
+                width: 80%;
+                height: 70%;
+              }
+            }
+          }
+
+          .graph-bottom {
+            @include defaultDisplay;
+            justify-content: space-between;
+            width: 100%;
+            height: 45%;
+            margin: 50px auto;
+
+            div {
+              @include defaultDisplay;
+              width: 50%;
+
+              img {
+                height: 70%;
+                width: 80%;
+              }
+            }
+          }
+        }
+
+        .left-graph {
+          width: 57%;
+          height: 390px;
+          background-color: #fff;
+          border: 1px solid silver;
+
+          .graph-header {
+            @include defaultDisplay;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
+            padding: 15px 0;
+
+            .edit {
+              @include defaultDisplay;
+              justify-content: space-between;
+              width: 100px;
+              height: 40px;
+
+              img {
+                height: inherit;
+              }
+            }
+
+            h2 {
+              font-size: 28px;
+              color: #a0abc2;
+            }
+          }
+
+          .grid {
+            width: 90%;
+            height: 320px;
+            margin: 0 auto;
+            background: url("../image/statistics/grid.png");
+
+            img {
+              width: 100%;
+              height: 80%;
+            }
+          }
+        }
+      }
+
+      .total {
+        width: 95%;
+        margin: 25px auto;
+        background: #fff;
+        border: 1px solid silver;
+
+        .total-header {
+          @include defaultDisplay;
+          justify-content: space-between;
+          width: 100%;
+          padding: 15px 25px;
+
+          h2 {
+            font-size: 28px;
+            color: #a0abc2;
+          }
+
+          .edit {
+            @include defaultDisplay;
+            justify-content: space-between;
+            width: 100px;
+            height: 40px;
+
+            img {
+              height: inherit;
+            }
+          }
+        }
+
+        .total-content {
+          @include defaultDisplay;
+          justify-content: space-between;
+          width: 90%;
+          margin: 25px auto 50px;
+        }
+      }
+    }
+  }
+}
